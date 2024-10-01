@@ -1,0 +1,38 @@
+server:
+  port: ${PORT:8080}
+  servlet.context-path: /api/maneger-files
+
+spring:
+  config:
+    activate:
+      on-profile: default, dev
+api:
+  base-url: ${API_BASE_URL:http://localhost}
+
+app:
+  diretorio: C:/Users/ASUS TUF F15/Documents/Temp/pasta_raiz/
+
+---
+spring:
+  config:
+    activate:
+      on-profile: default, dev
+front:
+  base-url: ${API_BASE_URL:http://localhost:4200}
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: default, dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
