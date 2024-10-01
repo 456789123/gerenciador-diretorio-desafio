@@ -10,7 +10,7 @@
 <p>Para o backend, fora implementado com o Java em sua versão JDK-17 e usando o framework Sringboot em sua versão 3.2.10.</p>
 <p>Fora implementado os testes unitários usando Junit para o backend como podemos ver sendo executado quando usamos o seguinte comando:</p>
 <p>"mvn clean install".</p>
-<p>Para o frontend fora adicionado também os testes unitários usando o seguinte comando:</p>
+<p>Para o frontend fora implementado também os testes unitários podem ser executados usando o seguinte comando:</p>
 <p>"ng test" ou "npm rum test".</p>
 <p>O banco de dados que está sendo usado é o PostGresSQL.</p>
 <p>Ao entrar dentro do diretório "maneger-files" que é o nosso servidor Java, podemos ver em sua raiz, o script sql "controle_diretorios.sql".</p>
