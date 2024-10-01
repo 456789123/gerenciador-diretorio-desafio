@@ -8,7 +8,7 @@
 <p>O sistema inicia com cada pasta fechada e quando o usuário clica sobre cada pasta, ela se abre mostrando o seu repectivo conteúdo respeitando assim, sua estrutura.</p>
 <p>Fora usado o Angular em sua versão 17.3.0 para o frontend rodando assim, na porta 4200.</p>
 <p>Para o backend, fora implementado com o Java em sua versão JDK-17 e usando o framework Sringboot em sua versão 3.2.10.</p>
-<p>Fora implementado os testes unitários usando Junit para o backend como pode ver rodando quando usamos o seguinte comando:</p>
+<p>Fora implementado os testes unitários usando Junit para o backend como podemos ver sendo executado quando usamos o seguinte comando:</p>
 <p>"mvn clean install".</p>
 <p>Para o frontend fora adicionado também os testes unitários usando o seguinte comando:</p>
 <p>"ng test" ou "npm rum test".</p>
