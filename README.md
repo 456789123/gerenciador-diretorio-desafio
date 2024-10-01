@@ -15,19 +15,18 @@
 <p>O banco de dados que está sendo usado é o PostGresSQL.</p>
 <p>Ao entrar dentro do diretório "maneger-files" que é o nosso servidor Java, podemos ver em sua raiz, o script sql "controle_diretorios.sql".</p>
 <p>Ele irá cria nosso banco de dados para simular a estrutura de diretórios.</p>
-<p>Nosso servidor Java está sendo rodado na porta 8080 e tem todas as sua configurações no arquivo "application.yml".</p>
+<p>Nosso servidor Java está sendo executado na porta 8080 e tem todas as sua configurações no arquivo "application.yml".</p>
 <p>Na minha opinião, eu não vejo sentido em usar uma estrutura de diretórios em um banco de dados, assim sendo, fora implementado também uma funcionalidade que irá refletir uma estrutura de diretórios real como se fosse um "Storage" de arquivos que irá se encontar no computado que irá hospedar nosso servidor Java onde irá fazer o upload de arquivos de imagem, vídeos, audios, etc.</p>
-<p>De qualquer forma, estará funcionando para um banco de dados assim como para uma pasta de arquivos normal.</p>
+<p>De qualquer forma, estará funcionando tanto para um banco de dados assim como para um diretório de arquivos normal.</p>
 <p>No arquivo  "application.yml", podemos ver a configuração de apontamento para um diretório qualquer no computador hospedeiro como também a configuração do banco de dados como mostra na imagem abaixo.</p>
 <br>
 ![configuracao](https://github.com/user-attachments/assets/0b12ddb9-916b-486b-98c0-086cbefd0166)
 <br>
-<p>Pode configurar o apontamento para o diretório desejado na linha 13 como mostrado na imagem.</p>
-<p>E a configuração do banco de dados na linha 25 em diante.</p>
+<p>Pode configurar o apontamento para o diretório desejado na linha 13 como mostrado na imagem e a configuração do banco de dados na linha 25 em diante.</p>
 <br>
 # Rodando a aplicação
 <br>
-<p>Assim que fazer o clone desse mesmo repositório, primeiramente deve pegar o arquivo "controle_diretorios.sql" e executado para montar o banco de dados.</p>
+<p>Assim que fazer o clone desse mesmo repositório, primeiramente deve pegar o arquivo "controle_diretorios.sql" e executar para montar o banco de dados.</p>
 <p>Logo depois, podemos digitar o "mvn clean install" para baixar as dependências para o servidor Java e assim executar o comando "mvn spring-boot:run" para executar nosso servidor de aplicação.</p>
 <p>Para o frontend, projeto Angular, podemos digitar primeiramente o comando "npm install" para baixar as denpêndecias e logo depois, executar o comando "ng server".</p>
 <p>Fora implementado todas as configurações para que não ocorra o bloqueio de "CORS-Origin" na classe "CorsConfig".</p>
