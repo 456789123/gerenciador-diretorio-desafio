@@ -2,3 +2,5 @@
 
 O sistema deverá permitir operar sobre diretórios e arquivos através de uma API REST, além de exibir uma listagem de diretórios em um frontend básico.
 Com anunciado, abaixo podemos ver como está a interface para a visualização de pastas e arquivos em sua estrutura.
+
+![Imagem_1](https://github.com/user-attachments/assets/a32f7c46-bc11-4d56-8970-fb933ce44248)
