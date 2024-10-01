@@ -20,7 +20,9 @@
 <p>De qualquer forma, estará funcionando tanto para um banco de dados assim como para um diretório de arquivos normal.</p>
 <p>No arquivo  "application.yml", podemos ver a configuração de apontamento para um diretório qualquer no computador hospedeiro como também a configuração do banco de dados como mostra na imagem abaixo.</p>
 <br>
+
 ![configuracao](https://github.com/user-attachments/assets/0b12ddb9-916b-486b-98c0-086cbefd0166)
+
 <br>
 <p>Pode configurar o apontamento para o diretório desejado na linha 13 como mostrado na imagem e a configuração do banco de dados na linha 25 em diante.</p>
 <br>
@@ -32,7 +34,9 @@
 <p>Fora implementado todas as configurações para que não ocorra o bloqueio de "CORS-Origin" na classe "CorsConfig".</p>
 <p>Na imagem abaixo do arquivo "application.yml" também mostra o apontamento da aplicação Angular para que seja de fácil configuração em outros ambientes como homologação e produção.</p>
 <br>
+
  ![Screenshot 2024-10-01 015007](https://github.com/user-attachments/assets/80b19c12-9e98-4ef7-b83a-46b79cae1602)
+ 
 <br>
 <p>Fora feito testes unitários em ambos servidores e configurado o Dockerfile em ambas as aplicaões.</p>
 
