@@ -1,8 +1,8 @@
 # Implementar um mini sistema de arquivos virtuais
 
-<h5>Nota*</h5>
-<p>O projeto Angular, teve um problema no commit e teve que colocar em um arquivo comprimido.</p>
-<p>Ele está como "maneger-files-web.rar"</p>
+<h3>Nota*</h3>
+<p>O projeto Angular, teve um problema no commit e teve que colocar em um arquivo comprimido.<br>
+Ele está como "maneger-files-web.rar"</p>
 
 <p>O sistema deverá permitir operar sobre diretórios e arquivos através de uma API REST, além de exibir uma listagem de diretórios em um frontend básico.</p>
 <p>Com anunciado, abaixo podemos ver como está a interface para a visualização de pastas e arquivos em sua estrutura.</p>
